@@ -3,9 +3,10 @@ import React,{Component} from 'react'
 import {
     Form,
     Input,
-    Icon,
     Button
 } from 'antd'
+
+import Icon from '@ant-design/icons'
 
 
 
@@ -13,7 +14,8 @@ import logo from '../../assets/images/logo.png'
 import './login.less'
 
 const Item = Form.Item
-export default class Login extends Component {
+
+class Login extends Component {
     render () {
         return (
             <div className='login'>
@@ -44,3 +46,4 @@ export default class Login extends Component {
     }
 }
 
+export default Login
